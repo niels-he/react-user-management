@@ -1,0 +1,17 @@
+@charset "UTF-8";
+.breadcrumbs {
+  padding: 0.76rem 1.53rem;
+  background-color: #fff;
+  border-bottom: 1px solid #e4e9f0;
+  width: 100%; }
+
+.path {
+  font-size: 1.38rem;
+  color: #0e0b20; }
+
+.arrow {
+  display: inline-block;
+  margin: 0 0.76rem; }
+  .arrow:after {
+    display: inline-block;
+    content: '·'; }

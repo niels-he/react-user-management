@@ -1,0 +1,52 @@
+.login {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 3.07rem;
+  overflow-y: auto;
+  flex: 0;
+  background-color: #fff;
+  transition: background-image 1s linear; }
+  .login.fullscreen {
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw; }
+  .login.windowed {
+    min-height: 1200px; }
+
+.styleControls {
+  margin-right: auto;
+  margin-left: 1.53rem; }
+  @media screen and (max-width: 1599px) {
+    .styleControls {
+      order: 1;
+      width: 100%;
+      margin-left: 0;
+      margin-top: 0.76rem; } }
+  @media screen and (max-width: 767px) {
+    .styleControls {
+      text-align: center; } }
+
+.content {
+  margin: auto; }
+
+.form {
+  max-width: 38.46rem;
+  padding: 3.84rem 3.07rem 1.53rem;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  position: relative;
+  margin: 0 auto; }
+
+.formTitle {
+  font-weight: 700;
+  font-size: 1.53rem;
+  color: #514d6a;
+  margin-bottom: 2.3rem;
+  text-transform: uppercase; }
